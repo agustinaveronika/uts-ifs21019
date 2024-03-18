@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Dino Pedia</string>
+    <string name="info_dino_image">Icon Dinosaurus</string>
+    <string name="info_dino_name">Nama Famili</string>
+    <string name="info_dino_desc">Deskripsi</string>
+    <string name="info_dino_periode">Periode Hidup</string>
+    <string name="info_dino_characteristic">Karakter Fisik</string>
+    <string name="info_dino_habitat">Habitat dan Lingkungan</string>
+    <string name="info_dino_act">Perilaku</string>
+    <string name="info_dino_classification">Klasifikasi</string>
+
+    <string-array name="dinos_name">
+        <item>Tyrannosauridae</item>
+        <item>Ceratopsidae</item>
+        <item>Hadrosauridae</item>
+        <item>Sauropodae</item>
+        <item>Stegosauridae</item>
+        <item>Ankylosauridae</item>
+        <item>Ornithomimidae</item>
+        <item>Therizinosauridae</item>
+    </string-array>
+
+    <string-array name="dinos_image">
+        <item>@drawable/tyrannosauridae</item>
+        <item>@drawable/ceratopsidae</item>
+        <item>@drawable/hadrosauridae</item>
+        <item>@drawable/sauropodae</item>
+        <item>@drawable/stegosauridae</item>
+        <item>@drawable/ankylosauridae</item>
+        <item>@drawable/ornithomimidae</item>
+        <item>@drawable/therizinosauridae</item>
+    </string-array>
+
+    <string-array name="dinos_desc">
+        <item>Kelompok dinosaurus karnivora besar dengan kepala besar, gigi tajam, dan lengan pendek yang kuat. Mereka dikenal sebagai predator puncak pada masanya.</item>
+        <item>Kelompok dinosaurus herbivora yang memiliki tanduk dan kerucut di kepala. Mereka adalah herbivora yang kuat dan memiliki struktur bertahan yang menonjol.</item>
+        <item>Kelompok dinosaurus herbivora yang dikenal sebagai "dinosaurus bebek" karena paruh mereka yang mirip bebek. Mereka seringkali menjadi mangsa utama untuk dinosaurus karnivora.</item>
+        <item>Kelompok dinosaurus herbivora raksasa dengan leher panjang dan ekor bercabang. Mereka adalah beberapa hewan terbesar yang pernah hidup di Bumi.</item>
+        <item>Kelompok dinosaurus herbivora yang dikenal karena deretan lempeng tulang yang menjulur dari punggung mereka. Mereka memiliki perlindungan fisik yang kuat.</item>
+        <item>Kelompok dinosaurus herbivora dengan tubuh dilapisi pelat atau plak tulang yang membentuk perlindungan yang kuat. Mereka adalah herbivora yang kuat dan tangguh.</item>
+        <item>Kelompok dinosaurus yang memiliki kemiripan dengan burung, termasuk rasio kaki yang panjang dan tubuh yang ringan. Mereka adalah dinosaurus yang cepat dan mungkin omnivora.</item>
+        <item>Kelompok dinosaurus herbivora dengan ciri-ciri unik seperti cakar yang panjang dan melengkung. Mereka memiliki kebiasaan makan yang unik.</item>
+    </string-array>
+
+    <string-array name="dinos_periode">
+        <item>Umumnya hidup pada periode Akhir Kretaseus, sekitar 68 hingga 66 juta tahun yang lalu.</item>
+        <item>Umumnya hidup pada periode Akhir Kretaseus, sekitar 83 hingga 66 juta tahun yang lalu.</item>
+        <item>Umumnya hidup pada periode Kapur Akhir, sekitar 83 hingga 66 juta tahun yang lalu.
+</item>
+        <item>Umumnya hidup pada periode Jura hingga Kretaseus, sekitar 201 hingga 66 juta tahun yang lalu.</item>
+        <item>Umumnya hidup pada periode Jura hingga Kretaseus, sekitar 155 hingga 66 juta tahun yang lalu.</item>
+        <item>Umumnya hidup pada periode Kapur Akhir, sekitar 100 hingga 66 juta tahun yang lalu.</item>
+        <item>Umumnya hidup pada periode Kapur Awal hingga Akhir, sekitar 130 hingga 66 juta tahun yang lalu.</item>
+        <item>Umumnya hidup pada periode Kapur Awal hingga Akhir, sekitar 145 hingga 66 juta tahun yang lalu.</item>
+    </string-array>
+
+    <string-array name="dinos_characteristic">
+        <item>Memiliki tubuh besar dengan kepala besar, gigi tajam, dan lengan yang kuat untuk menyerang mangsa.</item>
+        <item>Memiliki tubuh besar dengan tanduk di dahi dan kadang-kadang tanduk di hidung, serta kerucut pada rahang.</item>
+        <item>Memiliki tubuh besar dengan paruh yang kuat dan struktur kerucut pada rahang mereka.</item>
+        <item>Memiliki tubuh besar dengan leher panjang yang digunakan untuk mencari makanan tinggi, dan kaki yang kokoh.</item>
+        <item>Memiliki tubuh besar dengan deretan lempeng tulang dan duri di sepanjang punggung, serta kepala kecil.</item>
+        <item>Memiliki tubuh berat dengan pelat tulang dan duri yang menyusun perlindungan mereka, serta kepala dan ekor yang relatif pendek.</item>
+        <item>
+    Memiliki tubuh ramping dengan kaki yang panjang, kepala kecil, dan paruh yang mungkin digunakan untuk mencari makanan.
+</item>
+        <item>
+        Memiliki tubuh besar dengan cakar yang panjang dan melengkung, serta leher panjang dan kepala kecil.
+    </item>
+    </string-array>
+
+    <string-array name="dinos_habitat">
+        <item>Mendiami berbagai habitat daratan, termasuk hutan dan dataran terbuka.</item>
+        <item>Biasanya mendiami daerah daratan terbuka dan pedalaman yang subur.</item>
+        <item>Biasanya ditemukan di daerah yang subur seperti dataran banjir atau wilayah sungai.
+</item>
+        <item>Mendiami berbagai wilayah daratan, dari hutan hingga dataran banjir.</item>
+        <item>Biasanya ditemukan di dataran rendah dan hutan terbuka.</item>
+        <item>Biasanya mendiami wilayah pedalaman dan daerah berhutan.</item>
+        <item>Biasanya ditemukan di wilayah dataran terbuka dan gurun.</item>
+        <item>Mendiami berbagai habitat daratan, termasuk hutan dan padang rumput.</item>
+    </string-array>
+
+    <string-array name="dinos_act">
+        <item>Diduga sebagai predator soliter yang memburu mangsa besar seperti dinosaurus herbivora besar.</item>
+        <item>Mungkin hidup dalam kelompok dan menggunakan tanduk mereka dalam ritual perkelahian atau untuk pertahanan terhadap predator.</item>
+        <item>Mungkin hidup dalam kelompok besar dan menggunakan suara komunikasi kompleks untuk interaksi sosial.</item>
+        <item>Diduga hidup dalam kelompok besar dan mungkin melakukan migrasi musiman untuk mencari makanan.</item>
+        <item>Mungkin menggunakan duri dan lempeng tulang sebagai perlindungan dari predator, dan mungkin memiliki perilaku menyerang atau bertahan.</item>
+        <item>Mungkin memiliki perilaku bertahan yang kuat dan mengandalkan perlindungan fisik mereka dari predator, serta mungkin bersifat soliter.</item>
+        <item>Mungkin memiliki perilaku bergerak cepat dan kemungkinan menjadi omnivora, mungkin juga hidup dalam kelompok kecil.</item>
+        <item>Mungkin menggunakan cakar mereka untuk memetik daun dan dahan dari pohon serta mungkin memiliki perilaku pertahanan diri yang kuat.</item>
+    </string-array>
+
+    <string-array name="dinos_class">
+        <item>Termasuk dalam ordo Saurischia, subordo Theropoda.</item>
+        <item>Termasuk dalam ordo Ornithischia, subordo Marginocephalia.</item>
+        <item>Termasuk dalam ordo Ornithischia, subordo Ornithopoda.</item>
+        <item>Termasuk dalam ordo Saurischia, subordo Sauropodomorpha.</item>
+        <item>Termasuk dalam ordo Ornithischia, subordo Stegosauria.</item>
+        <item>Termasuk dalam ordo Ornithischia, subordo Ankylosauria.</item>
+        <item>Termasuk dalam ordo Saurischia, subordo Theropoda.</item>
+        <item>Termasuk dalam ordo Saurischia, subordo Theropoda.</item>
+    </string-array>
+</resources>
