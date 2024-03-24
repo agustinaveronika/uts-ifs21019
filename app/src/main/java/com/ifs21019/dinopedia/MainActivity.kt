@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.rvSpots.setHasFixedSize(true) // Diganti menjadi true untuk performa yang lebih baik
+        binding.rvDinoFamily.setHasFixedSize(true) // Diganti menjadi true untuk performa yang lebih baik
         dataSpots.addAll(getListSpots())
         showRecyclerList()
 
@@ -35,14 +35,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getListSpots(): ArrayList<Dinosaurus> {
-        val dataName = resources.getStringArray(R.array.dinos_name)
-        val dataImage = resources.obtainTypedArray(R.array.dinos_image)
-        val dataDescription = resources.getStringArray(R.array.dinos_desc)
-        val dataPeriode = resources.getStringArray(R.array.dinos_periode)
-        val dataCharacteristic = resources.getStringArray(R.array.dinos_characteristic)
-        val dataHabitat = resources.getStringArray(R.array.dinos_habitat)
-        val dataPerilaku = resources.getStringArray(R.array.dinos_act)
-        val dataKlasifikasi = resources.getStringArray(R.array.dinos_class)
+        val dataName = resources.getStringArray(R.array.dinos_namefam)
+        val dataImage = resources.obtainTypedArray(R.array.dinos_imagefam)
+        val dataDescription = resources.getStringArray(R.array.dinos_descfam)
+        val dataPeriode = resources.getStringArray(R.array.dinos_periodefam)
+        val dataCharacteristic = resources.getStringArray(R.array.dinos_characteristicfam)
+        val dataHabitat = resources.getStringArray(R.array.dinos_habitatfam)
+        val dataPerilaku = resources.getStringArray(R.array.dinos_actfam)
+        val dataKlasifikasi = resources.getStringArray(R.array.dinos_classfam)
         val listSpot = ArrayList<Dinosaurus>()
 
         // Periksa panjang array sebelum iterasi
@@ -79,13 +79,13 @@ class MainActivity : AppCompatActivity() {
     private fun showRecyclerList() {
         val orientation = resources.configuration.orientation
         if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            binding.rvSpots.layoutManager = GridLayoutManager(this, 2)
+            binding.rvDinoFamily.layoutManager = GridLayoutManager(this, 2)
         } else {
-            binding.rvSpots.layoutManager = LinearLayoutManager(this)
+            binding.rvDinoFamily.layoutManager = LinearLayoutManager(this)
         }
 
         val listSpotAdapter = ListDinoAdapter(dataSpots)
-        binding.rvSpots.adapter = listSpotAdapter
+        binding.rvDinoFamily.adapter = listSpotAdapter
 
         listSpotAdapter.setOnItemClickCallback(object : ListDinoAdapter.OnItemClickCallback {
             override fun onItemClicked(data: Dinosaurus) {

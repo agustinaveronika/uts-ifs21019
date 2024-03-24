@@ -5,13 +5,12 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Dinosaurus(
-    var name: String,
-    var image: Int,
-    var description: String,
-    var periode: String,
-    var characteristic: String,
-    var habitat: String,
-    var act: String,
-    var classification: String
-
+    var namefam: String,
+    var imagefam: Int, // Perhatikan tipe data yang digunakan untuk merepresentasikan gambar
+    var descriptionfam: String,
+    var periodefam: String,
+    var characteristicfam: String,
+    var habitatfam: String,
+    var actfam: String,
+    var classificationfam: String
 ) : Parcelable

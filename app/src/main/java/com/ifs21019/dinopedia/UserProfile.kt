@@ -12,14 +12,6 @@ class UserProfile : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_user_profile)
 
-        // Mendapatkan referensi ImageView untuk tombol kembali
-        val backButton = findViewById<ImageView>(R.id.back)
-
-        // Menambahkan OnClickListener untuk tombol kembali
-        backButton.setOnClickListener {
-            finish() // Menutup aktivitas saat tombol kembali diklik
-        }
-
         // Mendapatkan referensi TextView untuk email dan nomor telepon
         val emailTextView = findViewById<TextView>(R.id.email)
         val phoneTextView = findViewById<TextView>(R.id.noHP)

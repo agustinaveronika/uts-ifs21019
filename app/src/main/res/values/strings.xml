@@ -1,4 +1,5 @@
 <resources>
+    <!-- 8 Jenis Famili -->
     <string name="app_name">Dino Pedia</string>
     <string name="info_dino_image">Icon Dinosaurus</string>
     <string name="info_dino_name">Nama Famili</string>
@@ -8,8 +9,20 @@
     <string name="info_dino_habitat">Habitat dan Lingkungan</string>
     <string name="info_dino_act">Perilaku</string>
     <string name="info_dino_classification">Klasifikasi</string>
+    <!-- 15 Jenis Dinosaurus -->
+    <string name="info_dinosub_image">Icon Dinosaurus</string>
+    <string name="info_dinosub_name">Nama Dinosaurus</string>
+    <string name="info_dinosub_desc">Deskripsi</string>
+    <string name="info_dinosub_characteristic">Karakter</string>
+    <string name="info_dinosub_kelompok">Kelompok</string>
+    <string name="info_dinosub_habitat">Habitat</string>
+    <string name="info_dinosub_makanan">Makanan</string>
+    <string name="info_dinosub_panjang">Panjang</string>
+    <string name="info_dinosub_tinggi">Tinggi</string>
+    <string name="info_dinosub_bobot">Bobot</string>
+    <string name="info_dinosub_kelemahan">Kelemahan</string>
 
-    <string-array name="dinos_name">
+    <string-array name="dinos_namefam">
         <item>Tyrannosauridae</item>
         <item>Ceratopsidae</item>
         <item>Hadrosauridae</item>
@@ -20,7 +33,7 @@
         <item>Therizinosauridae</item>
     </string-array>
 
-    <string-array name="dinos_image">
+    <string-array name="dinos_imagefam">
         <item>@drawable/tyrannosauridae</item>
         <item>@drawable/ceratopsidae</item>
         <item>@drawable/hadrosauridae</item>
@@ -31,7 +44,7 @@
         <item>@drawable/therizinosauridae</item>
     </string-array>
 
-    <string-array name="dinos_desc">
+    <string-array name="dinos_descfam">
         <item>Kelompok dinosaurus karnivora besar dengan kepala besar, gigi tajam, dan lengan pendek yang kuat. Mereka dikenal sebagai predator puncak pada masanya.</item>
         <item>Kelompok dinosaurus herbivora yang memiliki tanduk dan kerucut di kepala. Mereka adalah herbivora yang kuat dan memiliki struktur bertahan yang menonjol.</item>
         <item>Kelompok dinosaurus herbivora yang dikenal sebagai "dinosaurus bebek" karena paruh mereka yang mirip bebek. Mereka seringkali menjadi mangsa utama untuk dinosaurus karnivora.</item>
@@ -42,11 +55,10 @@
         <item>Kelompok dinosaurus herbivora dengan ciri-ciri unik seperti cakar yang panjang dan melengkung. Mereka memiliki kebiasaan makan yang unik.</item>
     </string-array>
 
-    <string-array name="dinos_periode">
+    <string-array name="dinos_periodefam">
         <item>Umumnya hidup pada periode Akhir Kretaseus, sekitar 68 hingga 66 juta tahun yang lalu.</item>
         <item>Umumnya hidup pada periode Akhir Kretaseus, sekitar 83 hingga 66 juta tahun yang lalu.</item>
-        <item>Umumnya hidup pada periode Kapur Akhir, sekitar 83 hingga 66 juta tahun yang lalu.
-</item>
+        <item>Umumnya hidup pada periode Kapur Akhir, sekitar 83 hingga 66 juta tahun yang lalu.</item>
         <item>Umumnya hidup pada periode Jura hingga Kretaseus, sekitar 201 hingga 66 juta tahun yang lalu.</item>
         <item>Umumnya hidup pada periode Jura hingga Kretaseus, sekitar 155 hingga 66 juta tahun yang lalu.</item>
         <item>Umumnya hidup pada periode Kapur Akhir, sekitar 100 hingga 66 juta tahun yang lalu.</item>
@@ -54,26 +66,21 @@
         <item>Umumnya hidup pada periode Kapur Awal hingga Akhir, sekitar 145 hingga 66 juta tahun yang lalu.</item>
     </string-array>
 
-    <string-array name="dinos_characteristic">
+    <string-array name="dinos_characteristicfam">
         <item>Memiliki tubuh besar dengan kepala besar, gigi tajam, dan lengan yang kuat untuk menyerang mangsa.</item>
         <item>Memiliki tubuh besar dengan tanduk di dahi dan kadang-kadang tanduk di hidung, serta kerucut pada rahang.</item>
         <item>Memiliki tubuh besar dengan paruh yang kuat dan struktur kerucut pada rahang mereka.</item>
         <item>Memiliki tubuh besar dengan leher panjang yang digunakan untuk mencari makanan tinggi, dan kaki yang kokoh.</item>
         <item>Memiliki tubuh besar dengan deretan lempeng tulang dan duri di sepanjang punggung, serta kepala kecil.</item>
         <item>Memiliki tubuh berat dengan pelat tulang dan duri yang menyusun perlindungan mereka, serta kepala dan ekor yang relatif pendek.</item>
-        <item>
-    Memiliki tubuh ramping dengan kaki yang panjang, kepala kecil, dan paruh yang mungkin digunakan untuk mencari makanan.
-</item>
-        <item>
-        Memiliki tubuh besar dengan cakar yang panjang dan melengkung, serta leher panjang dan kepala kecil.
-    </item>
+        <item> Memiliki tubuh ramping dengan kaki yang panjang, kepala kecil, dan paruh yang mungkin digunakan untuk mencari makanan.</item>
+        <item>Memiliki tubuh besar dengan cakar yang panjang dan melengkung, serta leher panjang dan kepala kecil.</item>
     </string-array>
 
-    <string-array name="dinos_habitat">
+    <string-array name="dinos_habitatfam">
         <item>Mendiami berbagai habitat daratan, termasuk hutan dan dataran terbuka.</item>
         <item>Biasanya mendiami daerah daratan terbuka dan pedalaman yang subur.</item>
-        <item>Biasanya ditemukan di daerah yang subur seperti dataran banjir atau wilayah sungai.
-</item>
+        <item>Biasanya ditemukan di daerah yang subur seperti dataran banjir atau wilayah sungai.</item>
         <item>Mendiami berbagai wilayah daratan, dari hutan hingga dataran banjir.</item>
         <item>Biasanya ditemukan di dataran rendah dan hutan terbuka.</item>
         <item>Biasanya mendiami wilayah pedalaman dan daerah berhutan.</item>
@@ -81,7 +88,7 @@
         <item>Mendiami berbagai habitat daratan, termasuk hutan dan padang rumput.</item>
     </string-array>
 
-    <string-array name="dinos_act">
+    <string-array name="dinos_actfam">
         <item>Diduga sebagai predator soliter yang memburu mangsa besar seperti dinosaurus herbivora besar.</item>
         <item>Mungkin hidup dalam kelompok dan menggunakan tanduk mereka dalam ritual perkelahian atau untuk pertahanan terhadap predator.</item>
         <item>Mungkin hidup dalam kelompok besar dan menggunakan suara komunikasi kompleks untuk interaksi sosial.</item>
@@ -92,7 +99,7 @@
         <item>Mungkin menggunakan cakar mereka untuk memetik daun dan dahan dari pohon serta mungkin memiliki perilaku pertahanan diri yang kuat.</item>
     </string-array>
 
-    <string-array name="dinos_class">
+    <string-array name="dinos_classfam">
         <item>Termasuk dalam ordo Saurischia, subordo Theropoda.</item>
         <item>Termasuk dalam ordo Ornithischia, subordo Marginocephalia.</item>
         <item>Termasuk dalam ordo Ornithischia, subordo Ornithopoda.</item>
@@ -102,4 +109,236 @@
         <item>Termasuk dalam ordo Saurischia, subordo Theropoda.</item>
         <item>Termasuk dalam ordo Saurischia, subordo Theropoda.</item>
     </string-array>
+
+    <!-- Nama-nama Jenis Dino -->
+
+    <!--Jenis Tyrannosauridae-->
+    <string-array name="dinosub_name">
+        <item>Tyrannosaurus rex</item>
+        <item>Albertosaurus</item>
+        <item>Triceratops</item>
+        <item>Styracosaurus</item>
+        <item>Parasaurolophus</item>
+        <item>Edmontosaurus</item>
+        <item>Apatosaurus</item>
+        <item>Brachiosaurus</item>
+        <item>Stegosaurus</item>
+        <item>Kentrosaurus</item>
+        <item>Ankylosaurus</item>
+        <item>Euoplocephalus</item>
+        <item>Ornithomimus</item>
+        <item>Gallimimus</item>
+        <item>Therizinosaurus</item>
+        <item>Nothronychus</item>
+    </string-array>
+
+    <string-array name="dinosub_icon">
+        <item>@drawable/tyrannosaurusrex</item>
+        <item>@drawable/albertosaurus</item>
+        <item>@drawable/triceratops</item>
+        <item>@drawable/styracosaurus</item>
+        <item>@drawable/parasaurolophus</item>
+        <item>@drawable/edmontosaurus</item>
+        <item>@drawable/apatosaurus</item>
+        <item>@drawable/brachiosaurus</item>
+        <item>@drawable/stegosaurus</item>
+        <item>@drawable/kentrosaurus</item>
+        <item>@drawable/ankylosaurus</item>
+        <item>@drawable/euoplocephalus</item>
+        <item>@drawable/ornithomimus</item>
+        <item>@drawable/gallimimus</item>
+        <item>@drawable/therizinosaurus</item>
+        <item>@drawable/nothronychus</item>
+    </string-array>
+
+    <string-array name="dinosub_kelompok">
+        <item>Tyrannosauridae</item>
+        <item>Tyrannosauridae</item>
+        <item>Ceratopsidae</item>
+        <item>Ceratopsidae</item>
+        <item>Hadrosauridae</item>
+        <item>Hadrosauridae</item>
+        <item>Sauropodae</item>
+        <item>Sauropodae</item>
+        <item>Stegosauridae</item>
+        <item>Stegosauridae</item>
+        <item>Ankylosauridae</item>
+        <item>Ankylosauridae</item>
+        <item>Ornithomimidae</item>
+        <item>Ornithomimidae</item>
+        <item>Therizinosauridae</item>
+        <item>Therizinosauridae</item>
+    </string-array>
+
+    <string-array name="dinosub_description">
+        <item>Tyrannosaurus rex adalah dinosaurus raksasa yang hidup sekitar 68 hingga 66 juta tahun yang lalu di Amerika Utara.</item>
+        <item>Albertosaurus adalah dinosaurus pemangsa yang hidup di wilayah yang sekarang menjadi Kanada dan Amerika Serikat bagian barat sekitar 70 juta tahun yang lalu.</item>
+        <item>Triceratops adalah salah satu dinosaurus bertanduk yang paling terkenal, dengan ciri khas tiga tanduk besar di tengkoraknya.</item>
+        <item>Styracosaurus adalah dinosaurus bertanduk lain yang memiliki tanduk yang besar dan mencolok, sering kali disebut sebagai "saudara" Triceratops.</item>
+        <item>Parasaurolophus adalah dinosaurus bertengkorak panjang yang memiliki tonjolan besar di atas kepala, berfungsi sebagai resonator suara.</item>
+        <item>Edmontosaurus adalah dinosaurus bertengkorak panjang dengan bentuk tubuh yang mirip dengan hadrosaurid lainnya, umumnya ditemukan di Amerika Utara.</item>
+        <item>Apatosaurus adalah dinosaurus bertubuh besar dengan leher panjang yang tinggi, biasanya ditemukan di Amerika Utara pada periode Jura Akhir.</item>
+        <item>Brachiosaurus adalah dinosaurus raksasa dengan leher panjang dan kaki yang panjang, sering kali dianggap sebagai salah satu dinosaurus darat terbesar yang pernah hidup.</item>
+        <item>Stegosaurus adalah dinosaurus bertubuh besar yang memiliki ciri khas punggung yang dihiasi dengan piring-piring tulang besar.</item>
+        <item>Kentrosaurus adalah dinosaurus bertubuh kecil yang juga memiliki piring-piring tulang di punggungnya, meskipun tidak sebesar yang dimiliki oleh Stegosaurus.</item>
+        <item>Ankylosaurus adalah dinosaurus berbentuk bola dengan tubuh yang dilindungi oleh perisai tulang dan cakar-cakar besar di ekornya.</item>
+        <item>Euoplocephalus adalah dinosaurus berukuran besar dengan tubuh yang dilindungi oleh perisai tulang yang keras dan cakar-cakar besar di ekornya.</item>
+        <item>Ornithomimus adalah dinosaurus berjalan dua kaki dengan rahang mirip burung yang digunakan untuk mencabik-cabik tumbuhan dan serangga.</item>
+        <item>Gallimimus adalah dinosaurus berkepala kecil dengan leher panjang dan tubuh yang ringan, sering disebut sebagai "dinosaurus berlari" karena kecepatannya.</item>
+        <item>Therizinosaurus adalah dinosaurus yang memiliki cakar raksasa dan tubuh yang besar, namun kebiasaan makanannya masih menjadi misteri.</item>
+        <item>Nothronychus adalah dinosaurus berbulu dengan cakar-cakar yang panjang dan runcing, mungkin digunakan untuk mencabik tumbuhan dan serangga.</item>
+    </string-array>
+
+    <string-array name="dinosub_characteristics">
+        <item>Karakteristiknya meliputi rahang yang kuat, gigi-gigi besar, dan tubuh yang besar dan berat.</item>
+        <item>Karakteristiknya meliputi rahang yang kuat, gigi-gigi besar, dan tubuh yang lebih kecil daripada Tyrannosaurus rex.</item>
+        <item>Karakteristiknya meliputi tanduk besar di tengkorak dan bentuk tubuh yang besar dan berat.</item>
+        <item>Karakteristiknya meliputi tanduk besar di tengkorak dan cakar-cakar yang kuat untuk mempertahankan diri.</item>
+        <item>Karakteristiknya meliputi rahang yang kuat dengan baris gigi yang bertautan, dan tubuh yang relatif panjang dan ramping.</item>
+        <item>Mereka memiliki kaki yang kuat untuk bergerak di daratan dan ekor yang panjang untuk keseimbangan.</item>
+        <item>Karakteristiknya meliputi tubuh yang besar, leher panjang, ekor yang panjang, dan kaki yang kuat untuk mendukung berat badan yang besar.</item>
+        <item>Mereka memiliki tubuh yang besar, leher panjang yang membantu mereka mencapai makanan tinggi, dan kaki yang kokoh untuk menopang berat badan mereka yang besar.</item>
+        <item>Karakteristiknya meliputi punggung yang dihiasi dengan piring-piring tulang dan duri-duri yang menonjol.</item>
+        <item>Mereka memiliki tubuh yang relatif kecil dibandingkan dengan beberapa dinosaurus lain, tetapi masih memiliki piring-piring tulang yang mencolok di punggungnya.</item>
+        <item>Karakteristiknya meliputi perisai tulang yang melindungi tubuhnya, cakar-cakar besar di ekornya, dan struktur tubuh yang berbentuk seperti bola.</item>
+        <item>Mereka memiliki perisai tulang yang tebal di punggungnya, serta cakar-cakar besar di ekornya yang digunakan untuk pertahanan dan mungkin juga untuk berkomunikasi.</item>
+        <item>Karakteristiknya meliputi tubuh yang ramping, kaki panjang, dan kepala yang kecil dengan rahang yang ramping.</item>
+        <item>Mereka memiliki cakar-cakar yang kuat untuk mencabik tumbuhan dan serangga, serta kaki yang kokoh untuk berlari dengan cepat.</item>
+        <item>Karakteristiknya meliputi tubuh yang besar, kaki panjang, dan cakar-cakar yang kuat dan runcing yang mungkin digunakan untuk mencabik tumbuhan dan serangga.</item>
+        <item>Mereka memiliki bentuk tubuh yang unik dan mungkin merupakan omnivora yang dapat mengonsumsi berbagai jenis makanan.</item>
+    </string-array>
+
+    <string-array name="dinosub_group">
+        <item>T. rex termasuk dalam keluarga Tyrannosauridae.</item>
+        <item>Albertosaurus juga termasuk dalam keluarga Tyrannosauridae.</item>
+        <item>Kedua dinosaurus termasuk dalam keluarga Ceratopsidae.</item>
+        <item>Styracosaurus juga termasuk dalam keluarga Ceratopsidae, seperti halnya Triceratops.</item>
+        <item>Kedua dinosaurus termasuk dalam keluarga Hadrosauridae.</item>
+        <item>Edmontosaurus juga termasuk dalam keluarga Hadrosauridae, seperti halnya Parasaurolophus.</item>
+        <item>Kedua dinosaurus termasuk dalam keluarga Sauropoda.</item>
+        <item>Brachiosaurus juga termasuk dalam keluarga Sauropoda, seperti halnya Apatosaurus.</item>
+        <item>Kedua dinosaurus termasuk dalam keluarga Stegosauridae.</item>
+        <item>Kentrosaurus juga termasuk dalam keluarga Stegosauridae, seperti halnya Stegosaurus.</item>
+        <item>Kedua dinosaurus termasuk dalam keluarga Ankylosauridae.</item>
+        <item>Euoplocephalus juga termasuk dalam keluarga Ankylosauridae, seperti halnya Ankylosaurus.</item>
+        <item>Kedua dinosaurus termasuk dalam keluarga Ornithomimidae.</item>
+        <item>Gallimimus juga termasuk dalam keluarga Ornithomimidae, seperti halnya Ornithomimus.</item>
+        <item>Kedua dinosaurus termasuk dalam keluarga Therizinosauridae.</item>
+        <item>Nothronychus juga termasuk dalam keluarga Therizinosauridae, seperti halnya Therizinosaurus.</item>
+    </string-array>
+
+    <string-array name="dinosub_habitat">
+        <item>Habitatnya meliputi padang rumput, hutan dataran rendah, dan sungai-sungai yang mengalir di Amerika Utara pada periode Kapur Akhir.</item>
+        <item>Habitatnya mencakup wilayah padang rumput, hutan dataran rendah, dan sungai-sungai pada periode Kapur Akhir di Amerika Utara.</item>
+        <item>Habitatnya mencakup wilayah padang rumput dan hutan dataran rendah pada periode Kapur Akhir.</item>
+        <item>Umumnya ditemukan di padang rumput dan daerah-daerah yang terbuka, sering kali berada di dekat air.</item>
+        <item>Habitatnya mencakup padang rumput, hutan dataran rendah, dan daerah berawa-rawa di Amerika Utara pada periode Kapur Akhir.</item>
+        <item>Umumnya ditemukan di daerah-daerah berawa dan daerah rawa-rawa yang luas, sering kali berdekatan dengan air.</item>
+        <item>Habitatnya mencakup wilayah hutan dan dataran rendah yang bersemak, di mana mereka dapat mencari makanan dan melindungi diri dari predator.</item>
+        <item>Umumnya ditemukan di daerah-daerah yang cukup hijau dengan banyak tanaman rendah yang tersedia untuk dimakan.</item>
+        <item>Habitatnya mencakup daerah-daerah yang kaya akan tumbuhan dan air, seperti hutan dataran rendah, daerah rawa, dan daerah pantai.</item>
+        <item>Umumnya ditemukan di wilayah-wilayah yang luas dan berawa, sering kali di dekat air, untuk mendukung kebutuhan makanan dan air mereka yang besar.</item>
+        <item>Habitatnya mencakup wilayah padang rumput, dataran terbuka, dan daerah-daerah yang subur yang menyediakan cukup makanan untuk mereka.</item>
+        <item>Umumnya ditemukan di daerah-daerah yang luas dan terbuka, sering kali di dekat sungai atau danau, untuk memudahkan mendapatkan makanan.</item>
+        <item>Habitatnya mencakup wilayah hutan yang lebat dan daerah-daerah yang subur yang menyediakan cukup makanan untuk mereka.</item>
+        <item>Umumnya ditemukan di daerah-daerah yang bersemak dan lebat, sering kali di dekat air, untuk memudahkan mendapatkan makanan dan perlindungan dari predator.</item>
+    </string-array>
+
+    <string-array name="dinosub_food">
+        <item>Makanannya terutama terdiri dari hewan herbivora besar seperti Triceratops dan hadrosaurids.</item>
+        <item>Makanannya terdiri dari hewan herbivora seperti hadrosaurids dan mungkin juga hewan kecil lainnya.</item>
+        <item>Makanannya terutama terdiri dari tanaman seperti dedaunan, pucuk pohon, dan tanaman semak.</item>
+        <item>Mereka adalah herbivora yang mengonsumsi berbagai jenis tanaman yang tersedia di habitat mereka.</item>
+        <item>Makanannya terutama terdiri dari tanaman seperti daun, pucuk pohon, dan tumbuhan semak.</item>
+        <item>Para hadrosaurid adalah herbivora yang memakan berbagai jenis vegetasi yang tersedia di habitat mereka.</item>
+        <item>Makanannya terutama terdiri dari dedaunan, tanaman rendah, dan pucuk pohon yang tumbuh tinggi.</item>
+        <item>Mereka adalah herbivora yang mengonsumsi berbagai jenis tanaman yang tersedia di habitat mereka, sering kali dengan menggunakan leher panjang mereka untuk mencapai makanan yang tinggi.</item>
+        <item>Makanannya terutama terdiri dari tanaman rendah, dedaunan, dan tanaman semak yang dapat dicapai dengan lehernya yang panjang.</item>
+        <item>Mereka adalah herbivora yang mengonsumsi berbagai jenis tumbuhan yang tersedia di habitat mereka, sering kali menggunakan gigi-gigi mereka yang runcing untuk mencabut daun dari tanaman.</item>
+        <item>Makanannya terutama terdiri dari dedaunan, tanaman rendah, dan pucuk pohon yang tumbuh tinggi.</item>
+        <item>Mereka adalah herbivora yang mengonsumsi berbagai jenis tanaman yang tersedia di habitat mereka.</item>
+        <item>Makanannya terutama terdiri dari tumbuhan, buah-buahan, dan serangga yang mereka dapatkan dari lingkungan sekitarnya.</item>
+        <item>Mereka adalah omnivora yang mengonsumsi berbagai jenis makanan, termasuk tumbuhan, buah-buahan, dan serangga.</item>
+        <item>Makanannya mungkin terdiri dari berbagai jenis tumbuhan, termasuk dedaunan, buah-buahan, dan tanaman rendah yang dapat mereka capai dengan cakar mereka.</item>
+        <item>Therizinosauridae kemungkinan merupakan omnivora yang mengonsumsi berbagai jenis makanan, termasuk tumbuhan dan serangga.</item>
+    </string-array>
+
+    <string-array name="dinosub_length">
+        <item>Panjang T. rex bisa mencapai sekitar 12 meter atau lebih.</item>
+        <item>Panjang Albertosaurus berkisar antara 8 hingga 9 meter.</item>
+        <item>Triceratops memiliki panjang tubuh sekitar 8 hingga 9 meter.</item>
+        <item>Styracosaurus memiliki panjang tubuh sekitar 5 hingga 6 meter.</item>
+        <item>Parasaurolophus memiliki panjang tubuh sekitar 9 hingga 10 meter.</item>
+        <item>Edmontosaurus memiliki panjang tubuh sekitar 12 hingga 13 meter.</item>
+        <item>Apatosaurus memiliki panjang tubuh sekitar 21 hingga 26 meter.</item>
+        <item>Brachiosaurus memiliki panjang tubuh sekitar 18 hingga 22 meter.</item>
+        <item>Panjang Stegosaurus berkisar antara 7 hingga 9 meter.</item>
+        <item>Kentrosaurus memiliki panjang tubuh sekitar 4 hingga 5 meter.</item>
+        <item>Ankylosaurus memiliki panjang tubuh sekitar 6 hingga 9 meter.</item>
+        <item>Euoplocephalus memiliki panjang tubuh sekitar 5 hingga 6 meter.</item>
+        <item>Ornithomimus memiliki panjang tubuh sekitar 4 hingga 6 meter.</item>
+        <item>Gallimimus memiliki panjang tubuh sekitar 6 hingga 8 meter.</item>
+        <item>Therizinosaurus memiliki panjang tubuh sekitar 9 hingga 10 meter.</item>
+        <item>Nothronychus memiliki panjang tubuh sekitar 4 hingga 5 meter.</item>
+    </string-array>
+
+    <string-array name="dinosub_height">
+        <item>Tingginya bisa mencapai sekitar 4 hingga 6 meter pada punggungnya.</item>
+        <item>Tingginya sekitar 2.5 hingga 3 meter di bahu.</item>
+        <item>Triceratops memiliki tinggi sekitar 3 hingga 3.5 meter di bahu.</item>
+        <item>Styracosaurus memiliki tinggi sekitar 2.5 hingga 3 meter di bahu.</item>
+        <item>Parasaurolophus memiliki tinggi sekitar 3 hingga 4 meter di bahu.</item>
+        <item>Edmontosaurus memiliki tinggi sekitar 3 hingga 4 meter di bahu.</item>
+        <item>Habitatnya mencakup daerah-daerah yang kaya akan tumbuhan dan air, seperti hutan dataran rendah, daerah rawa, dan daerah pantai.</item>
+        <item>Umumnya ditemukan di wilayah-wilayah yang luas dan berawa, sering kali di dekat air, untuk mendukung kebutuhan makanan dan air mereka yang besar.</item>
+        <item>Tingginya sekitar 6 hingga 7 meter di bahu.</item>
+        <item>Tingginya bisa mencapai sekitar 9 hingga 12 meter di bahu.</item>
+        <item>Stegosaurus memiliki tinggi sekitar 4 hingga 5 meter di bahu.</item>
+        <item>Kentrosaurus memiliki tinggi sekitar 2 hingga 3 meter di bahu.</item>
+        <item>Tingginya sekitar 1.5 hingga 2 meter di bahu.</item>
+        <item>Tingginya sekitar 2 hingga 2.5 meter di bahu.</item>
+        <item>Tingginya sekitar 2 hingga 3 meter di bahu.</item>
+        <item>Tingginya sekitar 3 hingga 4 meter di bahu.</item>
+        <item>Tingginya sekitar 5 hingga 6 meter di bahu.</item>
+        <item>Tingginya sekitar 2 hingga 3 meter di bahu.</item>
+    </string-array>
+
+    <string-array name="dinosub_weight">
+        <item>Bobotnya diperkirakan mencapai sekitar 8 hingga 14 ton.</item>
+        <item>Bobotnya diperkirakan mencapai sekitar 2 hingga 4 ton.</item>
+        <item>Bobot Triceratops diperkirakan mencapai 6 hingga 12 ton.</item>
+        <item>Bobot Styracosaurus diperkirakan berkisar antara 3 hingga 5 ton.</item>
+        <item>Bobot Parasaurolophus diperkirakan mencapai 2 hingga 3 ton.</item>
+        <item>Bobot Edmontosaurus diperkirakan mencapai 4 hingga 6 ton.</item>
+        <item>Bobot Apatosaurus diperkirakan mencapai 16 hingga 22 ton.</item>
+        <item>Bobot Brachiosaurus diperkirakan mencapai 30 hingga 60 ton.</item>
+        <item>Bobot Stegosaurus diperkirakan mencapai 2 hingga 5 ton.</item>
+        <item>Bobot Kentrosaurus diperkirakan berkisar antara 1 hingga 2 ton.</item>
+        <item>Bobot Ankylosaurus diperkirakan mencapai 4 hingga 6 ton.</item>
+        <item>Bobot Euoplocephalus diperkirakan mencapai 2 hingga 3 ton.</item>
+        <item>Bobot Ornithomimus diperkirakan mencapai 200 hingga 400 kilogram.</item>
+        <item>Bobot Gallimimus diperkirakan mencapai 500 hingga 800 kilogram.</item>
+        <item>Bobot Therizinosaurus diperkirakan mencapai 5 hingga 6 ton.</item>
+        <item>Bobot Nothronychus diperkirakan mencapai 500 hingga 1.000 kilogram.</item>
+    </string-array>
+
+    <string-array name="dinosub_weakness">
+        <item>Kelemahannya termasuk mobilitas yang mungkin terbatas karena ukurannya yang besar dan mungkin juga memiliki ketahanan yang rendah pada suhu ekstrem.</item>
+        <item>Kelemahannya mungkin termasuk mobilitas yang terbatas karena ukurannya yang besar dan mungkin juga kurang efektif dalam menangani mangsa yang besar seperti yang dilakukan oleh T. rex.</item>
+        <item>Kelemahannya mungkin termasuk mobilitas yang terbatas karena ukurannya yang besar, serta keterbatasan dalam menghadapi predator seperti dinosaurus pemangsa besar.</item>
+        <item>Meskipun memiliki bentuk tubuh yang besar dan kuat, mereka rentan terhadap serangan predator karena mobilitasnya yang terbatas.</item>
+        <item>Kelemahannya termasuk predator seperti dinosaurus pemangsa besar yang mungkin memburunya, serta persaingan dengan dinosaurus herbivora lainnya untuk sumber makanan.</item>
+        <item>Walau memiliki ukuran tubuh yang besar, mereka rentan terhadap serangan predator yang berbahaya.</item>
+        <item>Kelemahannya termasuk mobilitas yang mungkin terbatas karena ukurannya yang besar, serta rentan terhadap serangan predator karena kebutuhan makanan dan air yang tinggi.</item>
+        <item>Meskipun memiliki ukuran tubuh yang besar, mereka memiliki tulang-tulang yang rentan dan mungkin memerlukan waktu yang lama untuk bergerak dengan efisien.</item>
+        <item>Kelemahannya termasuk mobilitas yang mungkin terbatas karena ukurannya yang besar, serta rentan terhadap serangan predator karena perlindungan yang terbatas dari piring-piring tulang di punggungnya.</item>
+        <item>Meskipun memiliki perlindungan alami di punggungnya, mereka mungkin tetap rentan terhadap predator yang cerdik dan cepat.</item>
+        <item>Kelemahannya termasuk mobilitas yang mungkin terbatas karena tubuhnya yang besar dan berat, serta rentan terhadap serangan predator karena pergerakannya yang lambat.</item>
+        <item>Meskipun memiliki perisai tulang yang kuat, mereka masih rentan terhadap serangan dari predator yang kuat seperti dinosaurus pemangsa besar.</item>
+        <item>Kelemahannya mungkin termasuk kebutuhan air yang tinggi dan rentan terhadap predator seperti dinosaurus pemangsa dan reptil besar lainnya.</item>
+        <item>Walaupun cepat bergerak, mereka mungkin rentan terhadap serangan predator karena tubuhnya yang ringan dan tidak dilengkapi dengan pertahanan fisik yang kuat.</item>
+        <item>Kelemahannya mungkin terletak pada kemungkinan mobilitas yang terbatas karena ukuran tubuhnya yang besar dan bentuk tubuhnya yang kaku.</item>
+        <item>Walaupun memiliki cakar yang kuat, mereka mungkin rentan terhadap serangan predator yang lebih cepat dan lebih lincah.</item>
+    </string-array>
+
 </resources>
